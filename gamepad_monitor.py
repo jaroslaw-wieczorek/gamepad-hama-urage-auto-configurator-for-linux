@@ -1,4 +1,4 @@
-#!/usr/bin/python3.8
+#!/usr/bin/python3.9
 import usb
 import threading
 import logging
@@ -41,7 +41,7 @@ class USBDetector():
 
                         time.sleep(1)
                         print("Mapping and calibrate Gamepad")
-                        subprocess.call("/bin/xbox_gamepad_calibrate.sh")
+                        subprocess.call("./xbox_gamepad_calibrate.sh")
 
                 
                 # some function to run on insertion of usb
