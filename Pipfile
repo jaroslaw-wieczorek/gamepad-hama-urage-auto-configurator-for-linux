@@ -9,6 +9,7 @@ verify_ssl = true
 pyudev = "*"
 pyusb = "*"
 usb = "*"
+pathlib = "*"
 
 [requires]
-python_version = "3.9"
+python_version = "3.11"

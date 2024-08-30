@@ -1,11 +1,11 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "05123d9752d7bf97345b311046b85659a6b8c5943d0b5985ab08addd34dda391"
+            "sha256": "9df704d8d4e00d94a84309b49eea0e6e44727422ad71eb43b978b3fbf0d3d0a2"
         },
         "pipfile-spec": 6,
         "requires": {
-            "python_version": "3.9"
+            "python_version": "3.11"
         },
         "sources": [
             {
@@ -16,28 +16,29 @@
         ]
     },
     "default": {
-        "pyudev": {
+        "pathlib": {
             "hashes": [
-                "sha256:69bb1beb7ac52855b6d1b9fe909eefb0017f38d917cba9939602c6880035b276"
+                "sha256:6940718dfc3eff4258203ad5021090933e5c04707d5ca8cc9e73c94a7894ea9f",
+                "sha256:f35f95ab8b0f59e6d354090350b44a80a80635d22efdedfa84c7ad1cf0a74147"
             ],
             "index": "pypi",
-            "version": "==0.22.0"
+            "version": "==1.0.1"
+        },
+        "pyudev": {
+            "hashes": [
+                "sha256:2e945427a21674893bb97632401db62139d91cea1ee96137cc7b07ad22198fc7",
+                "sha256:e8246f0a014fe370119ba2bc781bfbe62c0298d0d6b39c94e83102a8a3f56960"
+            ],
+            "index": "pypi",
+            "version": "==0.24.3"
         },
         "pyusb": {
             "hashes": [
-                "sha256:7d449ad916ce58aff60b89aae0b65ac130f289c24d6a5b7b317742eccffafc38",
-                "sha256:f18eb813d3a1439918071234589162c2f209a19adbeffeb1377ce078a4aebc70"
+                "sha256:2b4c7cb86dbadf044dfb9d3a4ff69fd217013dbe78a792177a3feb172449ea36",
+                "sha256:a4cc7404a203144754164b8b40994e2849fde1cfff06b08492f12fff9d9de7b9"
             ],
             "index": "pypi",
-            "version": "==1.1.1"
-        },
-        "six": {
-            "hashes": [
-                "sha256:1e61c37477a1626458e36f7b1d82aa5c9b094fa4802892072e49de9c60c4c926",
-                "sha256:8abb2f1d86890a2dfb989f9a77cfcfd3e47c2a354b01111771326f8aa26e0254"
-            ],
-            "markers": "python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2'",
-            "version": "==1.16.0"
+            "version": "==1.2.1"
         },
         "usb": {
             "hashes": [
